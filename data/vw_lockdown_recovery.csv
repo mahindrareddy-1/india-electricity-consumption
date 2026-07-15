@@ -1,0 +1,100 @@
+state,region,lockdown_phase,avg_daily_usage_mwh,pre_lockdown_avg_mwh,pct_of_pre_lockdown
+"Andhra Pradesh",SR,Pre-Lockdown,178.98,178.98,100.0
+"Andhra Pradesh",SR,Lockdown,173.80,178.98,97.1
+"Andhra Pradesh",SR,Post-Lockdown,178.92,178.98,100.0
+"Arunachal Pradesh",NER,Pre-Lockdown,2.14,2.14,100.0
+"Arunachal Pradesh",NER,Lockdown,2.08,2.14,97.0
+"Arunachal Pradesh",NER,Post-Lockdown,2.20,2.14,102.5
+Assam,NER,Pre-Lockdown,24.95,24.95,100.0
+Assam,NER,Lockdown,23.44,24.95,93.9
+Assam,NER,Post-Lockdown,26.94,24.95,108.0
+Bihar,ER,Pre-Lockdown,81.90,81.90,100.0
+Bihar,ER,Lockdown,78.06,81.90,95.3
+Bihar,ER,Post-Lockdown,89.36,81.90,109.1
+Chandigarh,NR,Pre-Lockdown,4.44,4.44,100.0
+Chandigarh,NR,Lockdown,3.68,4.44,83.0
+Chandigarh,NR,Post-Lockdown,4.77,4.44,107.5
+Chhattisgarh,WR,Pre-Lockdown,85.54,85.54,100.0
+Chhattisgarh,WR,Lockdown,79.19,85.54,92.6
+Chhattisgarh,WR,Post-Lockdown,86.08,85.54,100.6
+Delhi,NR,Pre-Lockdown,92.05,92.05,100.0
+Delhi,NR,Lockdown,73.45,92.05,79.8
+Delhi,NR,Post-Lockdown,97.90,92.05,106.4
+DNH,WR,Pre-Lockdown,17.25,17.25,100.0
+DNH,WR,Lockdown,15.31,17.25,88.7
+DNH,WR,Post-Lockdown,18.39,17.25,106.6
+Goa,WR,Pre-Lockdown,11.00,11.00,100.0
+Goa,WR,Lockdown,10.99,11.00,99.9
+Goa,WR,Post-Lockdown,10.65,11.00,96.8
+Gujarat,WR,Pre-Lockdown,329.53,329.53,100.0
+Gujarat,WR,Lockdown,321.10,329.53,97.4
+Gujarat,WR,Post-Lockdown,333.16,329.53,101.1
+Haryana,NR,Pre-Lockdown,150.36,150.36,100.0
+Haryana,NR,Lockdown,123.99,150.36,82.5
+Haryana,NR,Post-Lockdown,159.69,150.36,106.2
+HP,NR,Pre-Lockdown,26.90,26.90,100.0
+HP,NR,Lockdown,25.97,26.90,96.5
+HP,NR,Post-Lockdown,28.45,26.90,105.7
+J&K,NR,Pre-Lockdown,44.81,44.81,100.0
+J&K,NR,Lockdown,43.38,44.81,96.8
+J&K,NR,Post-Lockdown,43.79,44.81,97.7
+Jharkhand,ER,Pre-Lockdown,23.69,23.69,100.0
+Jharkhand,ER,Lockdown,23.61,23.69,99.6
+Jharkhand,ER,Post-Lockdown,23.02,23.69,97.2
+Karnataka,SR,Pre-Lockdown,206.88,206.88,100.0
+Karnataka,SR,Lockdown,201.77,206.88,97.5
+Karnataka,SR,Post-Lockdown,208.83,206.88,100.9
+Kerala,SR,Pre-Lockdown,72.67,72.67,100.0
+Kerala,SR,Lockdown,72.41,72.67,99.6
+Kerala,SR,Post-Lockdown,74.78,72.67,102.9
+Maharashtra,WR,Pre-Lockdown,431.62,431.62,100.0
+Maharashtra,WR,Lockdown,430.42,431.62,99.7
+Maharashtra,WR,Post-Lockdown,433.99,431.62,100.5
+Manipur,NER,Pre-Lockdown,2.53,2.53,100.0
+Manipur,NER,Lockdown,2.48,2.53,98.0
+Manipur,NER,Post-Lockdown,2.48,2.53,98.0
+Meghalaya,NER,Pre-Lockdown,5.70,5.70,100.0
+Meghalaya,NER,Lockdown,5.77,5.70,101.3
+Meghalaya,NER,Post-Lockdown,5.57,5.70,97.8
+Mizoram,NER,Pre-Lockdown,1.69,1.69,100.0
+Mizoram,NER,Lockdown,1.70,1.69,100.4
+Mizoram,NER,Post-Lockdown,1.70,1.69,100.9
+MP,WR,Pre-Lockdown,200.27,200.27,100.0
+MP,WR,Lockdown,219.59,200.27,109.6
+MP,WR,Post-Lockdown,199.17,200.27,99.5
+Nagaland,NER,Pre-Lockdown,2.17,2.17,100.0
+Nagaland,NER,Lockdown,2.13,2.17,98.3
+Nagaland,NER,Post-Lockdown,2.18,2.17,100.5
+Odisha,ER,Pre-Lockdown,80.05,80.05,100.0
+Odisha,ER,Lockdown,76.71,80.05,95.8
+Odisha,ER,Post-Lockdown,85.06,80.05,106.3
+Pondy,SR,Pre-Lockdown,7.83,7.83,100.0
+Pondy,SR,Lockdown,7.24,7.83,92.5
+Pondy,SR,Post-Lockdown,8.10,7.83,103.5
+Punjab,NR,Pre-Lockdown,158.91,158.91,100.0
+Punjab,NR,Lockdown,115.87,158.91,72.9
+Punjab,NR,Post-Lockdown,181.34,158.91,114.1
+Rajasthan,NR,Pre-Lockdown,219.50,219.50,100.0
+Rajasthan,NR,Lockdown,222.87,219.50,101.5
+Rajasthan,NR,Post-Lockdown,218.10,219.50,99.4
+Sikkim,ER,Pre-Lockdown,1.19,1.19,100.0
+Sikkim,ER,Lockdown,1.38,1.19,115.8
+Sikkim,ER,Post-Lockdown,1.24,1.19,104.0
+"Tamil Nadu",SR,Pre-Lockdown,315.40,315.40,100.0
+"Tamil Nadu",SR,Lockdown,294.75,315.40,93.5
+"Tamil Nadu",SR,Post-Lockdown,321.62,315.40,102.0
+Telangana,SR,Pre-Lockdown,185.12,185.12,100.0
+Telangana,SR,Lockdown,177.85,185.12,96.1
+Telangana,SR,Post-Lockdown,196.09,185.12,105.9
+Tripura,NER,Pre-Lockdown,4.14,4.14,100.0
+Tripura,NER,Lockdown,3.70,4.14,89.4
+Tripura,NER,Post-Lockdown,4.10,4.14,99.0
+UP,NR,Pre-Lockdown,321.17,321.17,100.0
+UP,NR,Lockdown,288.92,321.17,90.0
+UP,NR,Post-Lockdown,343.40,321.17,106.9
+Uttarakhand,NR,Pre-Lockdown,37.58,37.58,100.0
+Uttarakhand,NR,Lockdown,34.41,37.58,91.6
+Uttarakhand,NR,Post-Lockdown,38.88,37.58,103.5
+"West Bengal",ER,Pre-Lockdown,143.48,143.48,100.0
+"West Bengal",ER,Lockdown,125.84,143.48,87.7
+"West Bengal",ER,Post-Lockdown,148.14,143.48,103.2

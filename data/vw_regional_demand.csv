@@ -1,0 +1,121 @@
+region,region_name,usage_year,usage_month,usage_period,total_usage_mwh,avg_daily_usage_mwh,num_states
+ER,"Eastern Region",2019,1,2019-01,10056.20,67.04,5
+ER,"Eastern Region",2019,2,2019-02,8853.80,65.58,5
+ER,"Eastern Region",2019,3,2019-03,9389.10,62.59,5
+ER,"Eastern Region",2019,4,2019-04,9263.70,63.89,5
+ER,"Eastern Region",2019,5,2019-05,10234.60,68.23,5
+ER,"Eastern Region",2019,6,2019-06,9392.50,64.78,5
+ER,"Eastern Region",2019,7,2019-07,9994.85,64.48,5
+ER,"Eastern Region",2019,8,2019-08,9652.40,64.35,5
+ER,"Eastern Region",2019,9,2019-09,10654.60,73.48,5
+ER,"Eastern Region",2019,10,2019-10,10145.00,67.63,5
+ER,"Eastern Region",2019,11,2019-11,8964.70,61.83,5
+ER,"Eastern Region",2019,12,2019-12,9984.40,66.56,5
+ER,"Eastern Region",2020,1,2020-01,8058.70,67.16,5
+ER,"Eastern Region",2020,2,2020-02,7395.00,67.23,5
+ER,"Eastern Region",2020,3,2020-03,7494.70,62.46,5
+ER,"Eastern Region",2020,4,2020-04,7115.60,61.87,5
+ER,"Eastern Region",2020,5,2020-05,4920.80,61.51,5
+ER,"Eastern Region",2020,6,2020-06,1410.20,56.41,5
+ER,"Eastern Region",2020,7,2020-07,1785.50,71.42,5
+ER,"Eastern Region",2020,8,2020-08,1882.20,75.29,5
+ER,"Eastern Region",2020,9,2020-09,1380.10,55.20,5
+ER,"Eastern Region",2020,10,2020-10,1753.20,70.13,5
+ER,"Eastern Region",2020,11,2020-11,1788.80,71.55,5
+ER,"Eastern Region",2020,12,2020-12,1814.60,72.58,5
+NER,"North Eastern Region",2019,1,2019-01,1319.50,6.28,7
+NER,"North Eastern Region",2019,2,2019-02,1136.40,6.01,7
+NER,"North Eastern Region",2019,3,2019-03,1294.30,6.16,7
+NER,"North Eastern Region",2019,4,2019-04,1245.20,6.13,7
+NER,"North Eastern Region",2019,5,2019-05,1324.90,6.31,7
+NER,"North Eastern Region",2019,6,2019-06,1232.60,6.07,7
+NER,"North Eastern Region",2019,7,2019-07,1342.35,6.19,7
+NER,"North Eastern Region",2019,8,2019-08,1330.00,6.33,7
+NER,"North Eastern Region",2019,9,2019-09,1329.00,6.55,7
+NER,"North Eastern Region",2019,10,2019-10,1322.20,6.30,7
+NER,"North Eastern Region",2019,11,2019-11,1154.30,5.69,7
+NER,"North Eastern Region",2019,12,2019-12,1322.90,6.30,7
+NER,"North Eastern Region",2020,1,2020-01,1062.30,6.32,7
+NER,"North Eastern Region",2020,2,2020-02,937.60,6.09,7
+NER,"North Eastern Region",2020,3,2020-03,987.70,5.88,7
+NER,"North Eastern Region",2020,4,2020-04,991.30,6.16,7
+NER,"North Eastern Region",2020,5,2020-05,655.90,5.86,7
+NER,"North Eastern Region",2020,6,2020-06,200.70,5.73,7
+NER,"North Eastern Region",2020,7,2020-07,240.80,6.88,7
+NER,"North Eastern Region",2020,8,2020-08,255.20,7.29,7
+NER,"North Eastern Region",2020,9,2020-09,198.30,5.67,7
+NER,"North Eastern Region",2020,10,2020-10,249.20,7.12,7
+NER,"North Eastern Region",2020,11,2020-11,217.70,6.22,7
+NER,"North Eastern Region",2020,12,2020-12,194.00,5.54,7
+NR,"Northern Region",2019,1,2019-01,31506.60,116.69,9
+NR,"Northern Region",2019,2,2019-02,25768.90,106.04,9
+NR,"Northern Region",2019,3,2019-03,29130.70,107.89,9
+NR,"Northern Region",2019,4,2019-04,30037.90,115.09,9
+NR,"Northern Region",2019,5,2019-05,30927.80,114.55,9
+NR,"Northern Region",2019,6,2019-06,28018.10,107.35,9
+NR,"Northern Region",2019,7,2019-07,29601.30,106.10,9
+NR,"Northern Region",2019,8,2019-08,32262.60,119.49,9
+NR,"Northern Region",2019,9,2019-09,29620.30,113.49,9
+NR,"Northern Region",2019,10,2019-10,31189.30,115.52,9
+NR,"Northern Region",2019,11,2019-11,25190.50,96.52,9
+NR,"Northern Region",2019,12,2019-12,31479.50,116.59,9
+NR,"Northern Region",2020,1,2020-01,25622.90,118.62,9
+NR,"Northern Region",2020,2,2020-02,23080.90,116.57,9
+NR,"Northern Region",2020,3,2020-03,23209.10,107.45,9
+NR,"Northern Region",2020,4,2020-04,22408.10,108.25,9
+NR,"Northern Region",2020,5,2020-05,15427.50,107.14,9
+NR,"Northern Region",2020,6,2020-06,4321.60,96.04,9
+NR,"Northern Region",2020,7,2020-07,5745.10,127.67,9
+NR,"Northern Region",2020,8,2020-08,6179.70,137.33,9
+NR,"Northern Region",2020,9,2020-09,4121.10,91.58,9
+NR,"Northern Region",2020,10,2020-10,6674.10,148.31,9
+NR,"Northern Region",2020,11,2020-11,5871.40,130.48,9
+NR,"Northern Region",2020,12,2020-12,4898.30,108.85,9
+SR,"Southern Region",2019,1,2019-01,27552.10,153.07,6
+SR,"Southern Region",2019,2,2019-02,24069.80,148.58,6
+SR,"Southern Region",2019,3,2019-03,27750.10,154.17,6
+SR,"Southern Region",2019,4,2019-04,29999.30,172.41,6
+SR,"Southern Region",2019,5,2019-05,27669.00,153.72,6
+SR,"Southern Region",2019,6,2019-06,26743.20,153.70,6
+SR,"Southern Region",2019,7,2019-07,29991.95,161.25,6
+SR,"Southern Region",2019,8,2019-08,28792.80,159.96,6
+SR,"Southern Region",2019,9,2019-09,28106.90,161.53,6
+SR,"Southern Region",2019,10,2019-10,27586.40,153.26,6
+SR,"Southern Region",2019,11,2019-11,27622.20,158.75,6
+SR,"Southern Region",2019,12,2019-12,28568.50,158.71,6
+SR,"Southern Region",2020,1,2020-01,24448.30,169.78,6
+SR,"Southern Region",2020,2,2020-02,20601.10,156.07,6
+SR,"Southern Region",2020,3,2020-03,21583.10,149.88,6
+SR,"Southern Region",2020,4,2020-04,22426.40,162.51,6
+SR,"Southern Region",2020,5,2020-05,15093.60,157.23,6
+SR,"Southern Region",2020,6,2020-06,4080.60,136.02,6
+SR,"Southern Region",2020,7,2020-07,4203.10,140.10,6
+SR,"Southern Region",2020,8,2020-08,4707.00,156.90,6
+SR,"Southern Region",2020,9,2020-09,5570.00,185.67,6
+SR,"Southern Region",2020,10,2020-10,4789.30,159.64,6
+SR,"Southern Region",2020,11,2020-11,4966.90,165.56,6
+SR,"Southern Region",2020,12,2020-12,5414.00,180.47,6
+WR,"Western Region",2019,1,2019-01,30871.20,171.51,6
+WR,"Western Region",2019,2,2019-02,27447.50,169.43,6
+WR,"Western Region",2019,3,2019-03,32269.40,179.27,6
+WR,"Western Region",2019,4,2019-04,32604.70,187.38,6
+WR,"Western Region",2019,5,2019-05,31571.70,175.40,6
+WR,"Western Region",2019,6,2019-06,31389.20,180.40,6
+WR,"Western Region",2019,7,2019-07,32943.70,177.12,6
+WR,"Western Region",2019,8,2019-08,33236.10,184.65,6
+WR,"Western Region",2019,9,2019-09,32635.90,187.56,6
+WR,"Western Region",2019,10,2019-10,32199.70,178.89,6
+WR,"Western Region",2019,11,2019-11,30357.20,174.47,6
+WR,"Western Region",2019,12,2019-12,32827.60,182.38,6
+WR,"Western Region",2020,1,2020-01,26127.00,181.44,6
+WR,"Western Region",2020,2,2020-02,24370.80,184.63,6
+WR,"Western Region",2020,3,2020-03,23737.50,164.84,6
+WR,"Western Region",2020,4,2020-04,25300.90,183.34,6
+WR,"Western Region",2020,5,2020-05,17461.50,181.89,6
+WR,"Western Region",2020,6,2020-06,5648.10,188.27,6
+WR,"Western Region",2020,7,2020-07,5156.20,171.87,6
+WR,"Western Region",2020,8,2020-08,5110.30,170.34,6
+WR,"Western Region",2020,9,2020-09,5908.90,196.96,6
+WR,"Western Region",2020,10,2020-10,5070.80,169.03,6
+WR,"Western Region",2020,11,2020-11,5237.20,174.57,6
+WR,"Western Region",2020,12,2020-12,5960.10,198.67,6

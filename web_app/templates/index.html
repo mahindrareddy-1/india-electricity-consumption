@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Electricity Consumption | Executive Dashboard</title>
+    <!-- Import Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Modern Dark Theme Variables */
+        :root {
+            --bg-color: #0b1120;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-main: #94a3b8;
+            --text-light: #f8fafc;
+            --gradient-start: #38bdf8;
+            --gradient-end: #818cf8;
+            --accent: #10b981;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(56, 189, 248, 0.04), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(129, 140, 248, 0.04), transparent 25%);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header Styling & Animations */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--gradient-start);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin: 0 0 15px 0;
+            color: var(--text-light);
+            letter-spacing: -1px;
+        }
+
+        /* Animated Gradient Text */
+        h1 .highlight {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: shine 3s linear infinite;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Glassmorphism Stat Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 25px;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        /* Little glow effect on hover */
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 4px;
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .stat-card:hover::before { opacity: 1; }
+
+        .stat-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-main);
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-light);
+        }
+
+        .stat-card:nth-child(3) .stat-value {
+            color: var(--accent); /* Make "Coverage" green to look healthy */
+        }
+
+        /* Tableau Iframe Container */
+        .dashboard-container {
+            width: 100%;
+            height: 80vh;
+            min-height: 700px;
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px solid var(--card-border);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+            animation: fadeInUp 1s ease-out 0.4s both;
+            position: relative;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Error state styling */
+        .error-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            background: var(--card-bg);
+            color: var(--text-light);
+            text-align: center;
+            padding: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: rgba(148, 163, 184, 0.6);
+            letter-spacing: 1px;
+            animation: fadeIn 1s ease-out 0.8s both;
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+
+        /* Responsive constraints */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .dashboard-container { height: 60vh; min-height: 500px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Header -->
+        <header>
+            <div class="badge">Live Analytics Capstone</div>
+            <h1>Plugging into the <span class="highlight">Future</span></h1>
+            <p class="subtitle">
+                An interactive exploration of India's state-wise electricity consumption patterns, transitioning from the pre-pandemic baseline through the lockdown shock and into systemic recovery.
+            </p>
+        </header>
+
+        <!-- KPI Statistic Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Records</div>
+                <div class="stat-value">{{ stats.total_records }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">States & UTs Tracked</div>
+                <div class="stat-value">{{ stats.total_states }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">System Status</div>
+                <div class="stat-value">{{ stats.status }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total Energy Load</div>
+                <div class="stat-value">{{ stats.total_load }}</div>
+            </div>
+        </div>
+
+        <!-- Main Visualization Window -->
+        <div class="dashboard-container">
+            {% if tableau_url %}
+                <iframe 
+                    src="{{ tableau_url }}?:embed=y&:showVizHome=no&:tabs=no&:toolbar=bottom" 
+                    title="India Electricity Consumption Viz"
+                    allowfullscreen>
+                </iframe>
+            {% else %}
+                <div class="error-state">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 20px; color: #f87171;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <h2>Visualization Link Missing</h2>
+                    <p style="color: var(--text-main); max-width: 400px; margin-top: 10px;">
+                        The dashboard cannot load. Please ensure your Tableau Public URL is correctly pasted into the <strong>TABLEAU_EMBED_URL</strong> variable inside your project's <code>.env</code> file.
+                    </p>
+                </div>
+            {% endif %}
+        </div>
+
+    </div>
+
+</body>
+</html>
